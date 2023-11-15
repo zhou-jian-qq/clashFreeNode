@@ -15,45 +15,47 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: ???? _US_美国->????_IN_印度, server: 104.17.18.26, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.109420.xyz}}}
-  - {name: ???? _US_美国, server: 156.225.67.104, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_美国->????_KR_韩国, server: cadld2.gophers.gay, port: 21106, client-fingerprint: chrome, type: vmess, uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cadld2.gophers.gay}}}
-  - {name: ???? _US_美国 2, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}}
-  - {name: ???? _US_美国 3, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_美国->????_IN_印度 2, server: hdlb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
-  - {name: ???? _US_美国->????_GB_英国, server: mrb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: ???? _US_美国->????_IN_印度 3, server: mm3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
-  - {name: ???? _US_美国 4, server: 156.225.67.234, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: ???? _US_美国->????_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
-  - {name: ???? _US_美国 5, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: ece26ec7-bcfe-4845-8cf1-3d93abc19ce1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/nYAwpBbW, headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}}}
-  - {name: ???? _DE_德国, server: 35.157.14.187, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: ???? _US_美国->????_BR_巴西, server: sbl4.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: ???? _US_美国 6, server: 107.167.16.85, port: 443, client-fingerprint: chrome, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
-  - {name: ???? _US_美国->????_DE_德国, server: 192.203.230.229, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a4c481f0-1cf1-47b2-bf66-ab563daa29ba, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/public?ed=2048", headers: {Host: de3.biqibao.site}}}
-  - {name: ???? _US_美国 7, server: sbl2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ???? _US_美国->????_GB_英国 2, server: ld2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ???? _IL_以色列, server: v2node7.bipbupvpn.com, port: 443, type: vmess, uuid: 75b28ee0-1c81-4130-8206-eb96e2305b03, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v2node7.bipbupvpn.com}}}
+  - {name: ???? _US_美国, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: ???? _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
+  - {name: ???? _BR_巴西, server: 186.233.119.107, port: 41815, type: vmess, uuid: f49a5dfc-2644-4b4e-e1f0-f2aa31e52dcb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _CN_中国->????_US_美国, server: v6.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.online}}}
+  - {name: ???? _US_美国 2, server: 5.161.87.31, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _US_美国->????_IN_印度, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
+  - {name: ???? _DE_德国, server: 5.78.70.196, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _CN_中国->????_GB_英国, server: 120.210.205.220, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ???? _US_美国 3, server: 167.68.5.183, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: 6us3.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us3, headers: {Host: 6us3.pqjc.buzz}}}
+  - {name: ???? _US_美国 4, server: 5.161.86.165, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _GB_英国 2, server: 18.169.150.213, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: ???? _US_美国->????_BR_巴西, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
+  - {name: ???? _US_美国->????_GB_英国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ???? _US_美国 5, server: 5.161.106.178, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: ???? _US_美国 6, server: 14.vmessprotocol.telegram-vmessprotocol-channel.space, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca6.tehme100.fun}}}
+  - {name: ???? _DE_德国 2, server: poshtibani.chixixchi.com, port: 53298, type: vmess, uuid: 166bdbd6-098f-4372-fec4-686e8c8d1ce8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [poshtibani.chixixchi.com]}}}
+  - {name: ???? _US_美国 7, server: 89.116.180.179, port: 443, type: trojan, password: d2698cf9-c47e-455c-8384-12e642cbba15, sni: p6us4.pqjc.buzz, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/us4, headers: {Host: p6us4.pqjc.buzz}}}
 proxy-groups:
   - name: ?? 节点选择
     type: select
     proxies:
       - DIRECT
-      - ???? _US_美国->????_IN_印度
+      - ???? _IL_以色列
       - ???? _US_美国
-      - ???? _US_美国->????_KR_韩国
+      - ???? _GB_英国
+      - ???? _BR_巴西
+      - ???? _CN_中国->????_US_美国
       - ???? _US_美国 2
-      - ???? _US_美国 3
-      - ???? _US_美国->????_IN_印度 2
-      - ???? _US_美国->????_GB_英国
-      - ???? _US_美国->????_IN_印度 3
-      - ???? _US_美国 4
-      - ???? _US_美国->????_SA_沙特阿拉伯
-      - ???? _US_美国 5
+      - ???? _US_美国->????_IN_印度
       - ???? _DE_德国
+      - ???? _CN_中国->????_GB_英国
+      - ???? _US_美国 3
+      - ???? _US_美国 4
+      - ???? _GB_英国 2
       - ???? _US_美国->????_BR_巴西
+      - ???? _US_美国->????_GB_英国
+      - ???? _US_美国 5
       - ???? _US_美国 6
-      - ???? _US_美国->????_DE_德国
+      - ???? _DE_德国 2
       - ???? _US_美国 7
-      - ???? _US_美国->????_GB_英国 2
   - name: ?? 全球直连
     type: select
     proxies:
@@ -69,23 +71,24 @@ proxy-groups:
     proxies:
       - ?? 节点选择
       - ?? 全球直连
-      - ???? _US_美国->????_IN_印度
+      - ???? _IL_以色列
       - ???? _US_美国
-      - ???? _US_美国->????_KR_韩国
+      - ???? _GB_英国
+      - ???? _BR_巴西
+      - ???? _CN_中国->????_US_美国
       - ???? _US_美国 2
-      - ???? _US_美国 3
-      - ???? _US_美国->????_IN_印度 2
-      - ???? _US_美国->????_GB_英国
-      - ???? _US_美国->????_IN_印度 3
-      - ???? _US_美国 4
-      - ???? _US_美国->????_SA_沙特阿拉伯
-      - ???? _US_美国 5
+      - ???? _US_美国->????_IN_印度
       - ???? _DE_德国
+      - ???? _CN_中国->????_GB_英国
+      - ???? _US_美国 3
+      - ???? _US_美国 4
+      - ???? _GB_英国 2
       - ???? _US_美国->????_BR_巴西
+      - ???? _US_美国->????_GB_英国
+      - ???? _US_美国 5
       - ???? _US_美国 6
-      - ???? _US_美国->????_DE_德国
+      - ???? _DE_德国 2
       - ???? _US_美国 7
-      - ???? _US_美国->????_GB_英国 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,?? 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,?? 全球直连
